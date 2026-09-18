@@ -1,0 +1,23 @@
+# Node
+node_modules/
+dist/
+build/
+.turbo/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Rust
+contracts/target/
+target/
+Cargo.lock
+**/*.rs.bk
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db

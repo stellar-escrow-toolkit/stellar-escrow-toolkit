@@ -1,0 +1,32 @@
+{
+  "name": "stellar-escrow",
+  "version": "0.1.0",
+  "description": "Command line interface to inspect, deploy, and interact with Stellar & Soroban escrows",
+  "bin": {
+    "stellar-escrow": "./dist/index.js"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@stellar-escrow/sdk": "*",
+    "commander": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "stellar",
+    "soroban",
+    "escrow",
+    "cli"
+  ],
+  "author": "Stellar Escrow Toolkit Contributors",
+  "license": "Apache-2.0"
+}

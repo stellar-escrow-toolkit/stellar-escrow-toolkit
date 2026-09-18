@@ -1,0 +1,15 @@
+[package]
+name = "escrow-multisig"
+version = "0.1.0"
+edition = "2021"
+description = "M-of-N threshold multisig escrow arbiter and vault on Soroban"
+license = "Apache-2.0"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+soroban-sdk = { workspace = true }
+
+[dev-dependencies]
+soroban-sdk = { workspace = true, features = ["testutils"] }

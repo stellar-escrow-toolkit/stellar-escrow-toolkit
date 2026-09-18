@@ -1,0 +1,15 @@
+[package]
+name = "escrow-core"
+version = "0.1.0"
+edition = "2021"
+description = "Core two-party and arbiter-mediated escrow primitives on Soroban"
+license = "Apache-2.0"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+soroban-sdk = { workspace = true }
+
+[dev-dependencies]
+soroban-sdk = { workspace = true, features = ["testutils"] }

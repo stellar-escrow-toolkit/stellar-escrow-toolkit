@@ -1,0 +1,22 @@
+name: 🚀 Feature Request / Proposal
+description: Suggest an idea or new escrow template
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for a new escrow mechanism (e.g. streaming, quadratic milestone, vesting)?
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What problem does this feature solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution
+      description: How should this feature work in the smart contract or SDK?
+    validations:
+      required: true

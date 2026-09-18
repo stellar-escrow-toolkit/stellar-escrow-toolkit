@@ -1,0 +1,13 @@
+{
+  "name": "basic-escrow-example",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@stellar-escrow/sdk": "*",
+    "stellar-sdk": "^13.3.0"
+  }
+}

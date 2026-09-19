@@ -18,6 +18,7 @@ that policy inside a generic primitive.
 
 ## Extension rule
 
+
 An extension must preserve the conservation rule:
 
 ```text
